@@ -1,0 +1,178 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.animated {
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  -o-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+      -webkit-transform: translateY(-100%)
+  }
+  100% {
+      -webkit-transform: translateY(0)
+  }
+}
+@-moz-keyframes slideDown {
+  0% {
+      -moz-transform: translateY(-100%)
+  }
+  100% {
+      -moz-transform: translateY(0)
+  }
+}
+@-o-keyframes slideDown {
+  0% {
+      -o-transform: translateY(-100%)
+  }
+  100% {
+      -o-transform: translateY(0)
+  }
+}
+@keyframes slideDown {
+  0% {
+      transform: translateY(-100%)
+  }
+  100% {
+      transform: translateY(0)
+  }
+}
+.animated.slideDown {
+  -webkit-animation-name: slideDown;
+  -moz-animation-name: slideDown;
+  -o-animation-name: slideDown;
+  animation-name: slideDown
+}
+
+
+@-webkit-keyframes slideUp {
+  0% {
+      -webkit-transform: translateY(0)
+  }
+  100% {
+      -webkit-transform: translateY(-100%)
+  }
+}
+@-moz-keyframes slideUp {
+  0% {
+      -moz-transform: translateY(0)
+  }
+  100% {
+      -moz-transform: translateY(-100%)
+  }
+}
+@-o-keyframes slideUp {
+  0% {
+      -o-transform: translateY(0)
+  }
+  100% {
+      -o-transform: translateY(-100%)
+  }
+}
+@keyframes slideUp {
+  0% {
+      transform: translateY(0)
+  }
+  100% {
+      transform: translateY(-100%)
+  }
+}
+.animated.slideUp {
+  -webkit-animation-name: slideUp;
+  -moz-animation-name: slideUp;
+  -o-animation-name: slideUp;
+  animation-name: slideUp
+}
+
+
+
+
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+@media (max-width:991px) {
+  .carousel .background {
+    background-size: cover; /* To make the background image looks good */
+  }
+}
+
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+  position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+  top: 200px; /* The distance between the div with the top of document */
+  left: 0px; /* Make the div full width */
+  right: 0px; /* Make the div full width */
+}
+
+.title {
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: Verdana;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-size: 22px;
+  background-image: none;
+  background-color: #FF4000;
+  border-color: #FF4000;
+  color: #ffffff;
+}
+
+.btn,
+.btn:hover {
+  border-radius: 0px;
+  background-image: none;
+  background-color: #FF4000;
+  border-color: #FF4000;
+  color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  color: #ffffff;
+  outline: none;
+}
+
+
